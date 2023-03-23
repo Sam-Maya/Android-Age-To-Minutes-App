@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         //selecting button and text box we want to put the date and age in min
-        val dateBtn : Button = findViewById<Button>(R.id.dateBtn)
+        val dateBtn : Button = findViewById(R.id.dateBtn)
 
         selectedDate = findViewById(R.id.selectedDate)
 
